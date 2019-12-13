@@ -1,0 +1,25 @@
+.layout.ant-layout {
+  background: #ffffff;
+}
+
+.header.ant-layout-header {
+  padding: 10px 40px;
+  height: auto;
+}
+
+.header {
+  &__menu {
+    line-height: normal;
+    background: #001529;
+
+    &-item {
+      padding: 15px 0;
+      margin-right: 20px;
+      color: #ffffff;
+    }
+  }
+}
+
+.content {
+  padding: 20px 40px;
+}

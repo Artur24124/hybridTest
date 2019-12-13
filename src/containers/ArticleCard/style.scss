@@ -1,0 +1,15 @@
+.article {
+  &__comments {
+    margin-top: 20px;
+
+    &-items {
+      margin-bottom: 20px;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+  }
+}

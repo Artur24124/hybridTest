@@ -1,0 +1,15 @@
+.articles {
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+
+    &-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+  }
+}
